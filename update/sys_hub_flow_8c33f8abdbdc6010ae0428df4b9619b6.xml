@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build>glide-paris-06-24-2020__patch1-hotfix3-09-23-2020</compiler_build>
+        <copied_from>817983dfdb986010ae0428df4b961934</copied_from>
+        <copied_from_name>New DR Scheduled</copied_from_name>
+        <description/>
+        <internal_name>new_dr_schedule</internal_name>
+        <label_cache>[{"name":"c77258ab-24cf-4659-87ff-6e279bd6c464.record","label":"1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c77258ab-24cf-4659-87ff-6e279bd6c464.table_name","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.dr_schedule","label":"Trigger➛DR Schedules Record➛DR Schedule","reference":"x_552094_dros_dr_schedule_info","reference_display":"label","type":"glide_date","base_type":"glide_date","parent_table_name":"x_552094_dros_dr_schedules","column_name":"dr_schedule"},{"name":"Created_1.current.dr_site","label":"Trigger➛DR Schedules Record➛DR Site","reference":"","reference_display":"DR Site","type":"choice","base_type":"choice","parent_table_name":"x_552094_dros_dr_schedules","column_name":"dr_site"},{"name":"4386d068-419b-489f-944b-0cf1f1f7ce03.Records","label":"1➛Records","reference_display":"Records","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4386d068-419b-489f-944b-0cf1f1f7ce03.Table","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4386d068-419b-489f-944b-0cf1f1f7ce03.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"24b7cb43-9ece-4c8e-ae26-5576bd02cd89.record","label":"2➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"24b7cb43-9ece-4c8e-ae26-5576bd02cd89.table_name","label":"2➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1600ba70-548e-4546-9506-1070a366b684.item.uid","label":"1➛label Record➛UID","reference":"","reference_display":"UID","type":"integer","base_type":"integer","parent_table_name":"x_552094_dros_main_task","column_name":"uid"},{"name":"1600ba70-548e-4546-9506-1070a366b684.item.stage","label":"1➛label Record➛Stage","reference":"","reference_display":"Stage","type":"choice","base_type":"choice","parent_table_name":"x_552094_dros_main_task","column_name":"stage"},{"name":"1600ba70-548e-4546-9506-1070a366b684.item.environment","label":"1➛label Record➛Environment","reference":"","reference_display":"Environment","type":"choice","base_type":"choice","parent_table_name":"x_552094_dros_main_task","column_name":"environment"},{"name":"1600ba70-548e-4546-9506-1070a366b684.item.description","label":"1➛label Record➛Description","reference":"","reference_display":"Description","type":"string","base_type":"string","parent_table_name":"x_552094_dros_main_task","column_name":"description"},{"name":"1600ba70-548e-4546-9506-1070a366b684.item.support_team","label":"1➛label Record➛Support Team","reference":"cmdb_ci_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"x_552094_dros_main_task","column_name":"support_team"},{"name":"1600ba70-548e-4546-9506-1070a366b684.item","label":"1➛label Record","reference":"x_552094_dros_main_task","reference_display":"label Record","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"1600ba70-548e-4546-9506-1070a366b684.item.manager","label":"1➛label Record➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_552094_dros_main_task","column_name":"manager"},{"name":"1600ba70-548e-4546-9506-1070a366b684.item.application","label":"1➛label Record➛Application","reference":"cmdb_ci_business_app","reference_display":"Business Application","type":"reference","base_type":"reference","parent_table_name":"x_552094_dros_main_task","column_name":"application"},{"name":"1600ba70-548e-4546-9506-1070a366b684.item.support_team.name","label":"1➛label Record➛Support Team➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user_group","column_name":"name"},{"name":"1600ba70-548e-4546-9506-1070a366b684.item.manager.name","label":"1➛label Record➛Manager➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"},{"name":"1600ba70-548e-4546-9506-1070a366b684.item.application.name","label":"1➛label Record➛Application➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"cmdb_ci_business_app","column_name":"name"}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>New DR Schedule</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-11 14:18:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8c33f8abdbdc6010ae0428df4b9619b6</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>New DR Schedule</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CreateNotes" source="x_snc_createnotes">df5fd9a5090232007f44e1046c8ff69f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CreateNotes">df5fd9a5090232007f44e1046c8ff69f</sys_scope>
+        <sys_update_name>sys_hub_flow_8c33f8abdbdc6010ae0428df4b9619b6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-11 16:07:39</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=8c33f8abdbdc6010ae0428df4b9619b6"/>
+    <sys_variable_value action="delete_multiple" query="document_key=8c33f8abdbdc6010ae0428df4b9619b6"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=8c33f8abdbdc6010ae0428df4b9619b6^sys_idNOT IN4833f8abdbdc6010ae0428df4b9619b9"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>8c33f8abdbdc6010ae0428df4b9619b6</id>
+        <name>New DR Schedule</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-11 14:18:50</sys_created_on>
+        <sys_id>4833f8abdbdc6010ae0428df4b9619b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-11 14:18:50</sys_updated_on>
+    </sys_flow_cat_variable_model>
+</record_update>

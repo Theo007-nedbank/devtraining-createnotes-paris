@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="number" table="x_snc_createnotes_note">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="description" table="x_snc_createnotes_note">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -14,27 +14,27 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Number</column_label>
+        <column_label>Description</column_label>
         <comments/>
         <create_roles/>
-        <default_value>javascript:getNextObjNumberPadded();</default_value>
+        <default_value/>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
         <dependent_on_field/>
-        <display>true</display>
+        <display>false</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
-        <dynamic_default_value display_value="Get Next Padded Number">fdcb83a85f220100a9ad2572f2b4773c</dynamic_default_value>
+        <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>number</element>
+        <element>description</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
         <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
-        <max_length>40</max_length>
+        <max_length>1000</max_length>
         <name>x_snc_createnotes_note</name>
         <next_element/>
         <primary>false</primary>
@@ -52,21 +52,21 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-04-10 15:48:46</sys_created_on>
-        <sys_id>ff899e32db142010ae0428df4b961904</sys_id>
+        <sys_created_on>2020-11-13 08:17:44</sys_created_on>
+        <sys_id>c29339c0dbe4e010ae0428df4b9619e6</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Number</sys_name>
+        <sys_name>Description</sys_name>
         <sys_package display_value="CreateNotes" source="x_snc_createnotes">df5fd9a5090232007f44e1046c8ff69f</sys_package>
         <sys_policy/>
         <sys_scope display_value="CreateNotes">df5fd9a5090232007f44e1046c8ff69f</sys_scope>
-        <sys_update_name>sys_dictionary_x_snc_createnotes_note_number</sys_update_name>
+        <sys_update_name>sys_dictionary_x_snc_createnotes_note_description</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-09 13:50:40</sys_updated_on>
+        <sys_updated_on>2020-11-13 08:17:44</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>true</use_dynamic_default>
+        <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
         <widget/>
